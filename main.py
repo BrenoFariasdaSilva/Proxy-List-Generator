@@ -1,49 +1,50 @@
 """
 ================================================================================
-<PROJECT OR SCRIPT TITLE>
+Proxy List Generator
 ================================================================================
 Author      : Breno Farias da Silva
-Created     : <YYYY-MM-DD>
+Created     : 2026-02-05
 Description :
-    <Provide a concise and complete overview of what this script does.>
-    <Mention its purpose, scope, and relevance to the larger project.>
+    This script generates a list of proxies by scraping from various online sources.
+    It collects proxy IP addresses and ports from spys.me and free-proxy-list.net,
+    and saves them to a text file for use in proxy-related applications.
 
     Key features include:
-        - <Feature 1 — e.g., automatic data loading and preprocessing>
-        - <Feature 2 — e.g., model training and evaluation>
-        - <Feature 3 — e.g., visualization or report generation>
-        - <Feature 4 — e.g., logging or notification system>
-        - <Feature 5 — e.g., integration with other modules or datasets>
+        - Scraping proxies from spys.me using regex pattern matching
+        - Scraping proxies from free-proxy-list.net using HTML parsing
+        - Saving all collected proxies to a single output file
+        - Logging output to both terminal and file
+        - Execution time calculation and reporting
+        - Optional sound notification upon completion
 
 Usage:
-    1. <Explain any configuration steps before running, such as editing variables or paths.>
-    2. <Describe how to execute the script — typically via Makefile or Python.>
-            $ make <target>   or   $ python <script_name>.py
-    3. <List what outputs are expected or where results are saved.>
+    1. Ensure all dependencies are installed (see Dependencies section).
+    2. Run the script via Python:
+            $ python main.py
+    3. The script will scrape proxies and save them to separate files in the proxies_output directory.
 
 Outputs:
-    - <Output file or directory 1 — e.g., results.csv>
-    - <Output file or directory 2 — e.g., Feature_Analysis/plots/>
-    - <Output file or directory 3 — e.g., logs/output.txt>
+    - proxies_output/spys_me_proxies.txt: Proxies from spys.me
+    - proxies_output/free_proxy_list_proxies.txt: Proxies from free-proxy-list.net
 
 TODOs:
-    - <Add a task or improvement — e.g., implement CLI argument parsing.>
-    - <Add another improvement — e.g., extend support to Parquet files.>
-    - <Add optimization — e.g., parallelize evaluation loop.>
-    - <Add robustness — e.g., error handling or data validation.>
+    - Add support for additional proxy sources
+    - Implement proxy validation and filtering
+    - Add command-line arguments for customization
+    - Improve error handling for network requests
 
 Dependencies:
-    - Python >= <version>
-    - <Library 1 — e.g., pandas>
-    - <Library 2 — e.g., numpy>
-    - <Library 3 — e.g., scikit-learn>
-    - <Library 4 — e.g., matplotlib, seaborn, tqdm, colorama>
+    - Python >= 3.6
+    - beautifulsoup4
+    - colorama
+    - Logger (custom module)
+    - requests
 
 Assumptions & Notes:
-    - <List any key assumptions — e.g., last column is the target variable.>
-    - <Mention data format — e.g., CSV files only.>
-    - <Mention platform or OS-specific notes — e.g., sound disabled on Windows.>
-    - <Note on output structure or reusability.>
+    - Internet connection is required for scraping
+    - The script assumes the target websites maintain their current structure
+    - Proxies are saved in IP:PORT format, one per line, in separate files per source
+    - Sound notification is disabled on Windows
 """
 
 import atexit  # For playing a sound when the program finishes
