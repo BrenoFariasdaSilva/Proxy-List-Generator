@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Template-Project.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
+# [Proxy-List-Generator.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
 
 </div>
 
@@ -16,16 +16,16 @@ Project-Description.
 
 <div align="center">
 
-![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Template-Project)
-![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasDaSilva/Template-Project/main)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Template-Project)
-![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Template-Project)
-![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Template-Project)
-![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Template-Project)
-![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Template-Project)
-![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Template-Project)
-![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Template-Project)
-![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Template-Project.svg)
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasDaSilva/Proxy-List-Generator/main)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Proxy-List-Generator)
+![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Proxy-List-Generator)
+![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Proxy-List-Generator)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Proxy-List-Generator.svg)
 
 </div>
 
@@ -36,7 +36,7 @@ Project-Description.
 </div>
 
 ## Table of Contents
-- [Template-Project. ](#template-project-)
+- [Proxy-List-Generator. ](#proxy-list-generator-)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
@@ -71,8 +71,8 @@ Bullet points of the requirements.
 1. Clone the repository with the following command:
 
    ```bash
-   git clone https://github.com/BrenoFariasDaSilva/Template-Project.git
-   cd Template-Project
+   git clone https://github.com/BrenoFariasDaSilva/Proxy-List-Generator.git
+   cd Proxy-List-Generator
    ```
 
 ## Installation:
@@ -112,7 +112,7 @@ Bullet points of the requirements.
 
 ### Dataset - Optional
 
-1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Template-Project)` and run the following command:
+1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Proxy-List-Generator)` and run the following command:
 
    ```bash
    make dataset
