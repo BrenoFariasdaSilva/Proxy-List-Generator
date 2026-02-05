@@ -463,13 +463,16 @@ def main():
     )  # Output the welcome message
     start_time = datetime.datetime.now()  # Get the start time of the program
     
-    proxies_spys_me = scrape_proxies_from_spys_me()  # Scrape proxies from spys.me
-    proxies_free_proxy_list = scrape_proxies_from_free_proxy_list()  # Scrape proxies from free-proxy-list.net
-    
-    proxies_dict = {
-        "spys_me": proxies_spys_me,
-        "free_proxy_list": proxies_free_proxy_list,
-    }  # Dictionary of proxies by website
+    proxies_dict = {}  # Dictionary to hold proxies from each source
+    for source_key in sorted(PROXY_SOURCES.keys()):  # Iterate over each proxy source
+        if source_key == "spys_me":  # spys.me uses a different format
+            proxies = scrape_proxies_from_spys_me()  # Scrape proxies from spys.me
+        elif source_key == "free_proxy_list":  # free-proxy-list.net uses a different format
+            proxies = scrape_proxies_from_free_proxy_list()  # Scrape proxies from free-proxy-list.net
+        else:  # Other sites use the generic table scraper
+            proxies = scrape_proxies_from_table_site(source_key)  # Scrape proxies from the specified site
+
+        proxies_dict[source_key] = proxies  # Store results under the source key
     
     if not any(proxies_dict.values()):  # Verify if all proxy lists are empty
         print(
