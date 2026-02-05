@@ -79,9 +79,13 @@ VERBOSE = False  # Set to True to output verbose messages
 
 # Proxy Constants:
 PROXY_SOURCES = {
-    "spys_me": "https://spys.me/proxy.txt",
     "free_proxy_list": "https://free-proxy-list.net/",
+    "socks_proxy": "https://www.socks-proxy.net/",
+    "spys_me": "https://spys.me/proxy.txt",
+    "ssl_proxies": "https://www.sslproxies.org/",
+    "us_proxy": "https://www.us-proxy.org/",
 }
+PROXY_SOURCES = dict(sorted(PROXY_SOURCES.items()))  # Sort the dictionary by keys
 PROXY_REGEX = r"[0-9]+(?:\.[0-9]+){3}:[0-9]+"  # Regex pattern to match IP:PORT format
 OUTPUT_DIR = "Proxies_List"  # Output directory for proxy files
 OUTPUT_FILE_SUFFIX = "proxies.txt"  # Suffix for proxy output files
