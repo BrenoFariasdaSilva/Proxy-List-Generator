@@ -399,6 +399,22 @@ def get_source_url(source_key):
     return PROXY_SOURCES.get(source_key, "")  # Get URL from PROXY_SOURCES dict
 
 
+def write_markdown_header(md_file, timestamp, total_proxies):
+    """
+    Writes the header section of the markdown file with metadata.
+    
+    :param md_file: Open file object for writing
+    :param timestamp: Current timestamp string
+    :param total_proxies: Total number of proxies across all sources
+    :return: None
+    """
+    
+    md_file.write("# 🌐 Free Proxy List\n\n")  # Write main title
+    md_file.write(f"**Last Updated:** {timestamp}\n\n")  # Write last update timestamp
+    md_file.write(f"**Total Proxies:** {total_proxies}\n\n")  # Write total proxy count
+    md_file.write("---\n\n")  # Write separator
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
