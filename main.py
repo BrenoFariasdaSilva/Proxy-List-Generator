@@ -21,11 +21,11 @@ Usage:
     1. Ensure all dependencies are installed (see Dependencies section).
     2. Run the script via Python:
             $ python main.py
-    3. The script will scrape proxies and save them to separate files in the proxies_output directory.
+    3. The script will scrape proxies and save them to separate files in the Proxies_List directory.
 
 Outputs:
-    - proxies_output/spys_me_proxies.txt: Proxies from spys.me
-    - proxies_output/free_proxy_list_proxies.txt: Proxies from free-proxy-list.net
+    - Proxies_List/spys_me_proxies.txt: Proxies from spys.me
+    - Proxies_List/free_proxy_list_proxies.txt: Proxies from free-proxy-list.net
 
 TODOs:
     - Add support for additional proxy sources
