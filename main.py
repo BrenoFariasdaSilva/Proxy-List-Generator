@@ -355,7 +355,12 @@ def main():
     
     proxies_spys_me = scrape_proxies_from_spys_me()  # Scrape proxies from spys.me
     proxies_free_proxy_list = scrape_proxies_from_free_proxy_list()  # Scrape proxies from free-proxy-list.net
-
+    
+    proxies_dict = {
+        "spys_me": proxies_spys_me,
+        "free_proxy_list": proxies_free_proxy_list,
+    }  # Dictionary of proxies by website
+    
     finish_time = datetime.datetime.now()  # Get the finish time of the program
     print(
         f"{BackgroundColors.GREEN}Start time: {BackgroundColors.CYAN}{start_time.strftime('%d/%m/%Y - %H:%M:%S')}\n{BackgroundColors.GREEN}Finish time: {BackgroundColors.CYAN}{finish_time.strftime('%d/%m/%Y - %H:%M:%S')}\n{BackgroundColors.GREEN}Execution time: {BackgroundColors.CYAN}{calculate_execution_time(start_time, finish_time)}{Style.RESET_ALL}"
