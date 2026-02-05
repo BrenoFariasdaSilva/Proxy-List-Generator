@@ -42,7 +42,7 @@ A Python tool that automatically scrapes and generates up-to-date proxy lists fr
   - [Requirements](#requirements)
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
-  - [Installation:](#installation)
+    - [Python Installation](#python-installation)
     - [Dependencies](#dependencies)
   - [Usage](#usage)
   - [Results - Optional](#results---optional)
@@ -79,26 +79,24 @@ This project requires the following:
    cd Proxy-List-Generator
    ```
 
-## Installation:
+### Python Installation
 
-* Programing Language:
+Ensure Python 3.6 or higher is installed on your system:
 
-  * Manually:
-      ```bash
-      # Programing Language:
-      sudo apt install program-language -y
-      ```
+**Linux (Ubuntu/Debian):**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+```
 
-  * Using Makefile:
-      ```bash
-      make install
-      ```
+**macOS:**
+```bash
+# Using Homebrew
+brew install python3
+```
 
-  * Using ShellScript:
-      ```bash
-      chmod +x install.sh
-      sudo ./install.sh
-      ```  
+**Windows:**
+Download and install from [python.org](https://www.python.org/downloads/)
 
 ### Dependencies
 
