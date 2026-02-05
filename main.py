@@ -26,6 +26,9 @@ Usage:
 Outputs:
     - Proxies_List/spys_me_proxies.txt: Proxies from spys.me
     - Proxies_List/free_proxy_list_proxies.txt: Proxies from free-proxy-list.net
+    - Proxies_List/ssl_proxies_proxies.txt: Proxies from sslproxies.org
+    - Proxies_List/us_proxy_proxies.txt: Proxies from us-proxy.org
+    - Proxies_List/socks_proxy_proxies.txt: Proxies from socks-proxy.net
 
 TODOs:
     - Add support for additional proxy sources
