@@ -388,6 +388,17 @@ def format_source_display_name(source_key):
     return source_key.replace("_", " ").title()  # Replace underscores with spaces and capitalize each word
 
 
+def get_source_url(source_key):
+    """
+    Returns the URL for a given proxy source key.
+    
+    :param source_key: The source key from PROXY_SOURCES dict
+    :return: URL string or empty string if not found
+    """
+    
+    return PROXY_SOURCES.get(source_key, "")  # Get URL from PROXY_SOURCES dict
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
