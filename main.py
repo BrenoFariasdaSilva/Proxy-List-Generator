@@ -214,6 +214,28 @@ def create_directory(directory):
         )  # Output the directory already exists message
 
 
+def write_proxy_files(proxies_dict):
+    """
+    Writes proxy lists to files for sources that have non-empty proxy lists.
+
+    :param proxies_dict: Dictionary with website names as keys and proxy lists as values
+    :return: None
+    """
+
+    for website, proxies in proxies_dict.items():  # Iterate over each website's proxies
+        if proxies:  # Only write if the proxy list is not empty
+            filename = f"{website}_{OUTPUT_FILE_SUFFIX}"  # Create filename based on website name
+            filepath = os.path.join(OUTPUT_DIR, filename)  # Full path to the file
+            
+            with open(filepath, "w") as file:  # Open file in write mode
+                for proxy in proxies:  # Write each proxy to the file
+                    print(proxy, file=file)
+            
+            verbose_output(
+                f"{BackgroundColors.GREEN}Wrote {len(proxies)} proxies to {filepath}{Style.RESET_ALL}"
+            )  # Output file write confirmation
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
