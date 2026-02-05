@@ -134,6 +134,33 @@ def verify_filepath_exists(filepath):
     return os.path.exists(filepath)  # Return True if the file or folder exists, False otherwise
 
 
+def scrape_proxies_from_spys_me():
+    """
+    Scrapes proxy IP addresses and ports from spys.me using regex pattern matching
+    and returns a list of proxy strings.
+
+    :return: List of proxy strings in IP:PORT format
+    """
+
+    verbose_output(
+        f"{BackgroundColors.GREEN}Scraping proxies from spys.me...{Style.RESET_ALL}"
+    )  # Output the scraping message
+    
+    c = requests.get(PROXY_SOURCES["spys_me"])  # Make HTTP request to spys.me
+    
+    test_str = c.text  # Get the response text
+    
+    a = re.finditer(PROXY_REGEX, test_str, re.MULTILINE)  # Find all matches of IP:PORT pattern
+    
+    proxies = [i.group() for i in a]  # Collect all proxy strings
+    
+    verbose_output(
+        f"{BackgroundColors.GREEN}Scraped {len(proxies)} proxies from spys.me{Style.RESET_ALL}"
+    )  # Output the scraping result
+    
+    return proxies  # Return the list of proxies
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
