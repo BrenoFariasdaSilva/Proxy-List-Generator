@@ -74,6 +74,7 @@ Icon? # match Icon<CR>
 **/*.~lock*
 !**/requirements.txt
 !**/README.md
+!**/PROXIES.md
 
 # Environments
 **/.env
