@@ -221,6 +221,35 @@ def validate_proxy_source_url(url_name):
     return url  # Return the valid URL
 
 
+def fetch_proxy_page(url):
+    """
+    Fetches the HTML content from a proxy source URL with timeout and error handling.
+
+    :param url: The URL to fetch
+    :return: Response object if successful, None otherwise
+    """
+
+    verbose_output(
+        f"{BackgroundColors.GREEN}Scraping proxies from {url}...{Style.RESET_ALL}"
+    )  # Output the scraping message
+
+    try:  # Attempt to fetch the page with a timeout to avoid hanging indefinitely
+        r = requests.get(url, timeout=10)  # 10-second timeout for the request
+    except Exception as exc:  # Network/requests error (DNS, timeout, connection, etc.)
+        verbose_output(
+            f"{BackgroundColors.RED}Failed to fetch {url}: {BackgroundColors.CYAN}{exc}{Style.RESET_ALL}"
+        )  # Output error message
+        return None  # Return None on request failure
+
+    if r.status_code != 200:  # Non-successful HTTP response
+        verbose_output(
+            f"{BackgroundColors.YELLOW}Received status {r.status_code} from {BackgroundColors.CYAN}{url}{Style.RESET_ALL}"
+        )  # Output warning message
+        return None  # Return None on bad HTTP status
+
+    return r  # Return the response object
+
+
 def create_directory(directory):
     """
     Creates a directory if it does not already exist.
