@@ -89,6 +89,7 @@ PROXY_SOURCES = dict(sorted(PROXY_SOURCES.items()))  # Sort the dictionary by ke
 PROXY_REGEX = r"[0-9]+(?:\.[0-9]+){3}:[0-9]+"  # Regex pattern to match IP:PORT format
 OUTPUT_DIR = "Proxies_List"  # Output directory for proxy files
 OUTPUT_FILE_SUFFIX = "proxies.txt"  # Suffix for proxy output files
+MARKDOWN_FILENAME = "PROXIES.md"  # Markdown output filename
 
 # Logger Setup:
 logger = Logger(f"./Logs/{Path(__file__).stem}.log", clean=True)  # Create a Logger instance
