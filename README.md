@@ -45,7 +45,7 @@ A Python tool that automatically scrapes and generates up-to-date proxy lists fr
     - [Python Installation](#python-installation)
     - [Dependencies](#dependencies)
   - [Usage](#usage)
-  - [Results - Optional](#results---optional)
+  - [Results](#results)
   - [Contributing](#contributing)
   - [Collaborators](#collaborators)
   - [License](#license)
@@ -130,9 +130,26 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 python main.py
 ```
 
-## Results - Optional
+## Results
 
-Discuss the results obtained in the project.
+After running the script, you can verify the `Proxies_List/` directory for the generated proxy list files. Each file will contain the proxies scraped from the respective sources.
+
+Here are some example output files you can expect:
+
+- `free_proxy_list_proxies.txt` - Proxies from [free-proxy-list.net](https://free-proxy-list.net/)
+- `socks_proxy_proxies.txt` - SOCKS proxies from [socks-proxy.net](https://www.socks-proxy.net/)
+- `spys_me_proxies.txt` - Proxies from [spys.me](https://spys.me/proxy.txt)
+- `ssl_proxies_proxies.txt` - SSL proxies from [sslproxies.org](https://www.sslproxies.org/)
+- `us_proxy_proxies.txt` - US proxies from [us-proxy.org](https://www.us-proxy.org/)
+
+Each file contains proxies in `IP:PORT` format, one per line.
+
+**Example output:**
+```
+192.168.1.1:8080
+10.0.0.1:3128
+172.16.0.1:80
+```
 
 ## Contributing
 
