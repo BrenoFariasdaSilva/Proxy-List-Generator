@@ -75,6 +75,7 @@ Icon? # match Icon<CR>
 !**/requirements.txt
 !**/README.md
 !**/PROXIES.md
+!**/Proxies_List/*.txt
 
 # Environments
 **/.env
