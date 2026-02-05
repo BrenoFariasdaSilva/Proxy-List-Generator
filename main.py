@@ -368,6 +368,8 @@ def main():
         return  # Exit the main function early since there's nothing to save
     
     create_directory(OUTPUT_DIR)  # Create the output directory if it doesn't exist
+    
+    write_proxy_files(proxies_dict)  # Write proxy files for non-empty lists
 
     finish_time = datetime.datetime.now()  # Get the finish time of the program
     print(
