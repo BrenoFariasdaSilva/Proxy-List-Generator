@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Proxy-List-Generator.](Repository-URL) <img src="https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/blob/main/.assets/Icons/proxy-server.png"  width="3%" height="3%">
+# [Proxy-List-Generator.](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator) <img src="https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/blob/main/.assets/Icons/proxy-server.png"  width="3%" height="3%">
 
 </div>
 
