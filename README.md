@@ -123,6 +123,13 @@ In order to run the project, run the following command:
 make run
 ```
 
+Or manually by activating the virtual environment and running the script:
+
+```bash
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+python main.py
+```
+
 ## Results - Optional
 
 Discuss the results obtained in the project.
