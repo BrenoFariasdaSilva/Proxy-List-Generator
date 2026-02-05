@@ -353,7 +353,8 @@ def main():
     )  # Output the welcome message
     start_time = datetime.datetime.now()  # Get the start time of the program
     
-    # Implement logic here
+    proxies_spys_me = scrape_proxies_from_spys_me()  # Scrape proxies from spys.me
+    proxies_free_proxy_list = scrape_proxies_from_free_proxy_list()  # Scrape proxies from free-proxy-list.net
 
     finish_time = datetime.datetime.now()  # Get the finish time of the program
     print(
