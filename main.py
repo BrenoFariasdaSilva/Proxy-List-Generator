@@ -250,6 +250,29 @@ def fetch_proxy_page(url):
     return r  # Return the response object
 
 
+def extract_proxies_from_table(html_content):
+    """
+    Extracts proxy IP:PORT pairs from HTML table rows.
+
+    :param html_content: HTML content as bytes or string
+    :return: List of proxy strings in IP:PORT format
+    """
+
+    soup = BeautifulSoup(html_content, "html.parser")  # Parse the HTML content of the page
+    rows = soup.select("table tbody tr")  # Common table row selector across sources
+
+    proxies = []  # Accumulate extracted proxy strings
+    for row in rows:  # Iterate over each table row to extract IP and port
+        cols = row.find_all("td")  # Table columns in this row
+        if len(cols) >= 2:  # Expect at least IP and Port columns
+            ip = cols[0].text.strip()  # First column: IP address
+            port = cols[1].text.strip()  # Second column: Port number
+            if ip and port:  # Basic sanity check
+                proxies.append(f"{ip}:{port}")  # Format and store the proxy string
+
+    return proxies  # Return the list of extracted proxies
+
+
 def create_directory(directory):
     """
     Creates a directory if it does not already exist.
