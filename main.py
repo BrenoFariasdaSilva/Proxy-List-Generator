@@ -202,6 +202,25 @@ def scrape_proxies_from_free_proxy_list():
     return proxies  # Return the list of proxies
 
 
+def validate_proxy_source_url(url_name):
+    """
+    Validates that a URL is configured for the given proxy source key.
+
+    :param url_name: Key in PROXY_SOURCES dict identifying the site
+    :return: URL string if valid, None otherwise
+    """
+
+    url = PROXY_SOURCES.get(url_name)  # Get the URL for the specified source from the PROXY_SOURCES dictionary
+    
+    if not url:  # Missing configuration for this source
+        verbose_output(
+            f"{BackgroundColors.RED}No URL configured for source: {BackgroundColors.CYAN}{url_name}{Style.RESET_ALL}"
+        )  # Output error message
+        return None  # Return None when no URL is configured
+    
+    return url  # Return the valid URL
+
+
 def create_directory(directory):
     """
     Creates a directory if it does not already exist.
