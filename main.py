@@ -415,6 +415,27 @@ def write_markdown_header(md_file, timestamp, total_proxies):
     md_file.write("---\n\n")  # Write separator
 
 
+def write_markdown_table_of_contents(md_file, proxies_dict):
+    """
+    Writes the table of contents section with links to each proxy source.
+    
+    :param md_file: Open file object for writing
+    :param proxies_dict: Dictionary with source keys and proxy lists
+    :return: None
+    """
+    
+    md_file.write("## 📑 Table of Contents\n\n")  # Write TOC header
+    
+    for source_key in sorted(proxies_dict.keys()):  # Iterate through sorted source keys
+        if proxies_dict[source_key]:  # Only include sources with proxies
+            display_name = format_source_display_name(source_key)  # Get display name
+            anchor = source_key.replace("_", "-")  # Create anchor link from source key
+            proxy_count = len(proxies_dict[source_key])  # Get proxy count for this source
+            md_file.write(f"- [{display_name}](#{anchor}) ({proxy_count} proxies)\n")  # Write TOC entry
+    
+    md_file.write("\n---\n\n")  # Write separator after TOC
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
