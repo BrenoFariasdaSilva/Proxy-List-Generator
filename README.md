@@ -151,6 +151,8 @@ Each file contains proxies in `IP:PORT` format, one per line.
 172.16.0.1:80
 ```
 
+Not only that, but a `PROXIES.md` markdown file is also generated, containing the complete list of proxies in a well-structured format for easy reference.
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have suggestions for improving the code, your insights will be highly welcome.
