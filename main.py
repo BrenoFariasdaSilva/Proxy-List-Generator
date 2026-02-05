@@ -436,6 +436,39 @@ def write_markdown_table_of_contents(md_file, proxies_dict):
     md_file.write("\n---\n\n")  # Write separator after TOC
 
 
+def write_markdown_proxy_section(md_file, source_key, proxies):
+    """
+    Writes a single proxy source section with expandable table.
+    
+    :param md_file: Open file object for writing
+    :param source_key: The source key identifier
+    :param proxies: List of proxy strings for this source
+    :return: None
+    """
+    
+    display_name = format_source_display_name(source_key)  # Get display name for this source
+    source_url = get_source_url(source_key)  # Get source URL
+    
+    md_file.write(f"## {display_name}\n\n")  # Write section title
+    if source_url:  # Include source URL if available
+        md_file.write(f"**Source:** [{source_url}]({source_url})\n\n")  # Write source URL with markdown link
+    md_file.write(f"**Count:** {len(proxies)}\n\n")  # Write proxy count for this source
+    
+    md_file.write("<details>\n")  # Start HTML details tag
+    md_file.write(f"<summary>Click to expand proxy list</summary>\n\n")  # Write summary/toggle text
+    
+    md_file.write("| # | IP Address | Port | Full Proxy |\n")  # Write table column headers
+    md_file.write("|---|------------|------|------------|\n")  # Write table header separator
+    
+    for idx, proxy in enumerate(proxies, 1):  # Enumerate proxies starting from 1
+        if ":" in proxy:  # Ensure proxy has IP:PORT format
+            ip, port = proxy.split(":", 1)  # Split into IP and port components
+            md_file.write(f"| {idx} | `{ip}` | `{port}` | `{proxy}` |\n")  # Write table row with proxy data
+    
+    md_file.write("\n</details>\n\n")  # Close details tag
+    md_file.write("---\n\n")  # Write separator after section
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
