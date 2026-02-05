@@ -29,12 +29,12 @@ Outputs:
     - Proxies_List/ssl_proxies_proxies.txt: Proxies from sslproxies.org
     - Proxies_List/us_proxy_proxies.txt: Proxies from us-proxy.org
     - Proxies_List/socks_proxy_proxies.txt: Proxies from socks-proxy.net
+    - PROXIES.md: Markdown file with formatted proxy list (updated automatically)
 
 TODOs:
-    - Add support for additional proxy sources
     - Implement proxy validation and filtering
     - Add command-line arguments for customization
-    - Improve error handling for network requests
+    - Add proxy response time testing
 
 Dependencies:
     - Python >= 3.6
