@@ -374,6 +374,20 @@ def write_proxy_files(proxies_dict):
             )  # Output file write confirmation
 
 
+def format_source_display_name(source_key):
+    """
+    Returns a human-readable display name for a proxy source key.
+    
+    Dynamically generates display names from source keys by replacing underscores
+    with spaces and capitalizing each word.
+    
+    :param source_key: The source key from PROXY_SOURCES dict
+    :return: Display name string
+    """
+    
+    return source_key.replace("_", " ").title()  # Replace underscores with spaces and capitalize each word
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
