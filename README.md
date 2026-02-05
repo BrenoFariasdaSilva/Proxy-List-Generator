@@ -8,7 +8,7 @@
   
 ---
 
-Project-Description.
+A Python tool that automatically scrapes and generates up-to-date proxy lists from multiple free proxy sources, saving them into organized text files for easy integration into your projects.
   
 ---
 
