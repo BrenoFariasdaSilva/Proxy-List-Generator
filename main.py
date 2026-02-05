@@ -361,6 +361,12 @@ def main():
         "free_proxy_list": proxies_free_proxy_list,
     }  # Dictionary of proxies by website
     
+    if not any(proxies_dict.values()):  # Verify if all proxy lists are empty
+        print(
+            f"{BackgroundColors.YELLOW}No proxies were scraped from any source. Skipping output file creation.{Style.RESET_ALL}"
+        )  # Output a warning message if no proxies were scraped
+        return  # Exit the main function early since there's nothing to save
+    
     finish_time = datetime.datetime.now()  # Get the finish time of the program
     print(
         f"{BackgroundColors.GREEN}Start time: {BackgroundColors.CYAN}{start_time.strftime('%d/%m/%Y - %H:%M:%S')}\n{BackgroundColors.GREEN}Finish time: {BackgroundColors.CYAN}{finish_time.strftime('%d/%m/%Y - %H:%M:%S')}\n{BackgroundColors.GREEN}Execution time: {BackgroundColors.CYAN}{calculate_execution_time(start_time, finish_time)}{Style.RESET_ALL}"
