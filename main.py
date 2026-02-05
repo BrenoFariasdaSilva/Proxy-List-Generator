@@ -74,6 +74,15 @@ class BackgroundColors:  # Colors for the terminal
 # Execution Constants:
 VERBOSE = False  # Set to True to output verbose messages
 
+# Proxy Constants:
+PROXY_SOURCES = {
+    "spys_me": "https://spys.me/proxy.txt",
+    "free_proxy_list": "https://free-proxy-list.net/",
+}
+PROXY_REGEX = r"[0-9]+(?:\.[0-9]+){3}:[0-9]+"  # Regex pattern to match IP:PORT format
+OUTPUT_DIR = "Proxies_List"  # Output directory for proxy files
+OUTPUT_FILE_SUFFIX = "_proxies.txt"  # Suffix for proxy output files
+
 # Logger Setup:
 logger = Logger(f"./Logs/{Path(__file__).stem}.log", clean=True)  # Create a Logger instance
 sys.stdout = logger  # Redirect stdout to the logger
