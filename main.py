@@ -305,6 +305,33 @@ def scrape_proxies_from_table_site(url_name):
     return proxies  # Return the list of proxies
 
 
+def collect_proxies_from_all_sources():
+    """
+    Collects proxies from all configured sources by dynamically dispatching
+    to the appropriate scraper function for each source.
+
+    This function iterates over all keys in PROXY_SOURCES in sorted order,
+    dispatching to specialized scrapers for spys.me and free-proxy-list.net,
+    and using the generic table scraper for all other sources.
+
+    :return: Dictionary mapping source keys to lists of proxy strings
+    """
+
+    proxies_dict = {}  # Dictionary to hold proxies from each source
+    
+    for source_key in sorted(PROXY_SOURCES.keys()):  # Iterate over each proxy source in alphabetical order
+        if source_key == "spys_me":  # spys.me uses a different format (regex-based)
+            proxies = scrape_proxies_from_spys_me()  # Scrape proxies from spys.me using regex
+        elif source_key == "free_proxy_list":  # free-proxy-list.net uses a different format (custom HTML parsing)
+            proxies = scrape_proxies_from_free_proxy_list()  # Scrape proxies from free-proxy-list.net using custom parser
+        else:  # Other sites use standard HTML table format
+            proxies = scrape_proxies_from_table_site(source_key)  # Scrape proxies using the generic table scraper
+
+        proxies_dict[source_key] = proxies  # Store results under the source key
+    
+    return proxies_dict  # Return the dictionary containing all collected proxies
+
+
 def create_directory(directory):
     """
     Creates a directory if it does not already exist.
@@ -463,17 +490,7 @@ def main():
     )  # Output the welcome message
     start_time = datetime.datetime.now()  # Get the start time of the program
     
-    proxies_dict = {}  # Dictionary to hold proxies from each source
-    
-    for source_key in sorted(PROXY_SOURCES.keys()):  # Iterate over each proxy source
-        if source_key == "spys_me":  # spys.me uses a different format
-            proxies = scrape_proxies_from_spys_me()  # Scrape proxies from spys.me
-        elif source_key == "free_proxy_list":  # free-proxy-list.net uses a different format
-            proxies = scrape_proxies_from_free_proxy_list()  # Scrape proxies from free-proxy-list.net
-        else:  # Other sites use the generic table scraper
-            proxies = scrape_proxies_from_table_site(source_key)  # Scrape proxies from the specified site
-
-        proxies_dict[source_key] = proxies  # Store results under the source key
+    proxies_dict = collect_proxies_from_all_sources()  # Collect proxies from all configured sources
     
     if not any(proxies_dict.values()):  # Verify if all proxy lists are empty
         print(
