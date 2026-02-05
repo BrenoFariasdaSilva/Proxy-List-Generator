@@ -55,7 +55,7 @@ A Python tool that automatically scrapes and generates up-to-date proxy lists fr
 
 This project is a **Proxy List Generator** that automatically scrapes free proxy servers from multiple online sources and saves them into organized text files. The tool is designed for developers and security researchers who need fresh proxy lists for testing, web scraping, or privacy applications.
 
-All output is logged to both the terminal and a log file, with colored output for better readability. The script also tracks execution time and can optionally play a sound notification when complete (on macOS and Linux).
+All output is updated automatically every 12 hours and logged to both the terminal and a log file, with colored output for better readability. The script also tracks execution time and can optionally play a sound notification when complete (on macOS and Linux).
 
 ## Requirements
 
