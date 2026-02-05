@@ -367,6 +367,8 @@ def main():
         )  # Output a warning message if no proxies were scraped
         return  # Exit the main function early since there's nothing to save
     
+    create_directory(OUTPUT_DIR)  # Create the output directory if it doesn't exist
+
     finish_time = datetime.datetime.now()  # Get the finish time of the program
     print(
         f"{BackgroundColors.GREEN}Start time: {BackgroundColors.CYAN}{start_time.strftime('%d/%m/%Y - %H:%M:%S')}\n{BackgroundColors.GREEN}Finish time: {BackgroundColors.CYAN}{finish_time.strftime('%d/%m/%Y - %H:%M:%S')}\n{BackgroundColors.GREEN}Execution time: {BackgroundColors.CYAN}{calculate_execution_time(start_time, finish_time)}{Style.RESET_ALL}"
