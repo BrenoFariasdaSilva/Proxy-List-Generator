@@ -649,6 +649,8 @@ def main():
     create_directory(OUTPUT_DIR)  # Create the output directory if it doesn't exist
     
     write_proxy_files(proxies_dict)  # Write proxy files for non-empty lists
+    
+    generate_markdown_proxy_list(proxies_dict)  # Generate markdown file with proxy list
 
     finish_time = datetime.datetime.now()  # Get the finish time of the program
     print(
