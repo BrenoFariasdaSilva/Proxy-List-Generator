@@ -59,7 +59,14 @@ All output is logged to both the terminal and a log file, with colored output fo
 
 ## Requirements
 
-Bullet points of the requirements.
+This project requires the following:
+- Python 3.6 or higher
+- Internet connection for scraping proxy sources
+- Required Python packages (installed via `make dependencies`)
+    The packages include:
+    - `beautifulsoup4` (4.14.3)
+    - `colorama` (0.4.6)
+    - `requests` (2.32.5)
 
 ## Setup
 
