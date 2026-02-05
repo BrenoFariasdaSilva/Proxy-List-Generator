@@ -43,7 +43,6 @@ Project-Description.
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
   - [Installation:](#installation)
-  - [Run Programing Language Code:](#run-programing-language-code)
     - [Dependencies](#dependencies)
   - [Usage](#usage)
   - [Results - Optional](#results---optional)
@@ -91,12 +90,6 @@ Bullet points of the requirements.
       chmod +x install.sh
       sudo ./install.sh
       ```  
-
-## Run Programing Language Code:
-
-```bash
-# Command here 
-```
 
 ### Dependencies
 
