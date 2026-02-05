@@ -161,6 +161,40 @@ def scrape_proxies_from_spys_me():
     return proxies  # Return the list of proxies
 
 
+def scrape_proxies_from_free_proxy_list():
+    """
+    Scrapes proxy IP addresses and ports from free-proxy-list.net using HTML parsing
+    and returns a list of proxy strings.
+
+    :return: List of proxy strings in IP:PORT format
+    """
+
+    verbose_output(
+        f"{BackgroundColors.GREEN}Scraping proxies from free-proxy-list.net...{Style.RESET_ALL}"
+    )  # Output the scraping message
+    
+    d = requests.get(PROXY_SOURCES["free_proxy_list"])  # Make HTTP request to free-proxy-list.net
+    
+    soup = BeautifulSoup(d.content, "html.parser")  # Parse the HTML content
+    
+    td_elements = soup.select(".fpl-list .table tbody tr td")  # Select table data elements
+    
+    ips = []  # List to store IP addresses
+    ports = []  # List to store ports
+    
+    for j in range(0, len(td_elements), 8):  # Iterate over elements in steps of 8
+        ips.append(td_elements[j].text.strip())  # Extract and store IP
+        ports.append(td_elements[j + 1].text.strip())  # Extract and store port
+    
+    proxies = [f"{ip}:{port}" for ip, port in zip(ips, ports)]  # Format proxy strings
+    
+    verbose_output(
+        f"{BackgroundColors.GREEN}Scraped {len(proxies)} proxies from free-proxy-list.net{Style.RESET_ALL}"
+    )  # Output the scraping result
+    
+    return proxies  # Return the list of proxies
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
