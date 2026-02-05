@@ -8,7 +8,7 @@
   
 ---
 
-A Python tool that automatically scrapes and generates up-to-date proxy lists from multiple free proxy sources, saving them into organized text files for easy integration into your projects.
+A Python tool that automatically scrapes and generates up-to-date proxy lists from multiple free proxy sources, saving them into organized text files for easy integration into your projects. This project includes a workflow that runs every 12 hours to update the proxy lists automatically, both in text files and in a markdown file for easy reference.
   
 ---
 
