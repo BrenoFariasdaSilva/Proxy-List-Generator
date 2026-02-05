@@ -273,6 +273,38 @@ def extract_proxies_from_table(html_content):
     return proxies  # Return the list of extracted proxies
 
 
+def scrape_proxies_from_table_site(url_name):
+    """
+    Generic scraper for sites that expose proxies in an HTML table.
+
+    This function orchestrates the proxy scraping workflow by validating the URL,
+    fetching the page content, and extracting proxy data from HTML tables.
+    It is intentionally defensive and always returns a list (possibly empty)
+    rather than raising on network or parsing errors.
+
+    :param url_name: Key in PROXY_SOURCES dict identifying the site
+    :return: List of proxy strings in IP:PORT format
+    """
+
+    url = validate_proxy_source_url(url_name)  # Validate and retrieve the URL
+    
+    if not url:  # URL validation failed
+        return []  # Return empty list when no URL is configured
+
+    response = fetch_proxy_page(url)  # Fetch the HTML content from the URL
+    
+    if not response:  # Fetch failed
+        return []  # Return empty list on request failure
+
+    proxies = extract_proxies_from_table(response.content)  # Extract proxies from the HTML table
+
+    verbose_output(
+        f"{BackgroundColors.GREEN}Scraped {len(proxies)} proxies from {url}{Style.RESET_ALL}"
+    )  # Output the scraping result
+
+    return proxies  # Return the list of proxies
+
+
 def create_directory(directory):
     """
     Creates a directory if it does not already exist.
