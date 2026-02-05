@@ -509,7 +509,6 @@ def generate_markdown_proxy_list(proxies_dict):
         write_markdown_header(md_file, timestamp, total_proxies)  # Write header section
         write_markdown_table_of_contents(md_file, proxies_dict)  # Write table of contents
         
-        # Write proxy sections for each source
         for source_key in sorted(proxies_dict.keys()):  # Iterate through sorted source keys
             proxies = proxies_dict[source_key]  # Get proxies for this source
             if proxies:  # Only write section if proxies exist
