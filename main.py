@@ -195,6 +195,25 @@ def scrape_proxies_from_free_proxy_list():
     return proxies  # Return the list of proxies
 
 
+def create_directory(directory):
+    """
+    Creates a directory if it does not already exist.
+
+    :param directory: The path of the directory to create
+    :return: None
+    """
+
+    if not verify_filepath_exists(directory):  # Check if the directory already exists
+        os.makedirs(directory)  # Create the directory
+        verbose_output(
+            f"{BackgroundColors.GREEN}Created directory: {BackgroundColors.CYAN}{directory}{Style.RESET_ALL}"
+        )  # Output the directory creation message
+    else:  # If the directory already exists
+        verbose_output(
+            f"{BackgroundColors.YELLOW}Directory already exists: {BackgroundColors.CYAN}{directory}{Style.RESET_ALL}"
+        )  # Output the directory already exists message
+
+
 def to_seconds(obj):
     """
     Converts various time-like objects to seconds.
