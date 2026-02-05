@@ -35,21 +35,14 @@ jobs:
           python main.py
         continue-on-error: false
       
-      - name: Check for Changes
-        id: git-check
-        run: |
-          git diff --exit-code PROXIES.md Proxies_List/ || echo "changes=true" >> $GITHUB_OUTPUT
-      
       - name: Commit and Push Changes
-        if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add PROXIES.md Proxies_List/
-          git commit -m "🤖 Auto-update: Proxy list updated on $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git push
-      
-      - name: No Changes Detected
-        if: steps.git-check.outputs.changes != 'true'
-        run: |
-          echo "No changes detected in proxy lists. Skipping commit."
+          if git diff --staged --quiet; then
+            echo "No changes detected in proxy lists. Skipping commit."
+          else
+            git commit -m "Auto-update: Proxy list updated on $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
