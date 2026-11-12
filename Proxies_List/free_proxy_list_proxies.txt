@@ -1,263 +1,263 @@
-138.121.113.12:8787:HTTP
-HTTP:ID
-ID:Indonesia
-Brazil:anonymous
+123.16.15.41:1452:HTTP
+HTTP:PK
+DE:Germany
+Russian Federation:elite proxy
 elite proxy:yes
-yes:11 secs ago
-11 secs ago:165.154.162.73:8888
-109.111.179.214:10808:HTTP
-HTTP:CO
-AZ:Azerbaijan
-Vietnam:elite proxy
-anonymous:yes
-yes:1 min ago
-1 min ago:8.213.222.157:5060
-8.211.51.115:3333:HTTP
-HTTP:PE
-ES:Spain
-Egypt:anonymous
-anonymous:yes
-yes:1 min ago
-1 min ago:103.17.215.9:8089
-103.126.87.125:8090:HTTP
+no:19 secs ago
+19 secs ago:85.159.88.220:8111
+103.19.78.125:1080:HTTP
 HTTP:ID
-ID:Indonesia
-Indonesia:anonymous
-anonymous:yes
-yes:1 min ago
-1 min ago:103.79.183.109:8080
-185.89.156.2:44224:HTTP
-HTTP:JP
-ID:Indonesia
-Russian Federation:transparent
-anonymous:yes
-no:1 min ago
-1 min ago:163.172.53.142:80
-47.85.161.37:3128:HTTP
+PH:Philippines
+Indonesia:transparent
+transparent:no
+no:19 secs ago
+19 secs ago:38.7.195.108:999
+41.216.186.200:8080:HTTP
 HTTP:VN
-CH:Switzerland
-Belgium:elite proxy
-elite proxy:no
-no:1 min ago
-1 min ago:197.221.240.182:80
-41.220.22.7:80:HTTP
-HTTP:ID
-FR:France
-Zimbabwe:anonymous
-elite proxy:yes
-no:1 min ago
-1 min ago:41.220.16.210:80
-103.204.211.48:32255:HTTP
-HTTP:GB
-KR:South Korea
-Azerbaijan:elite proxy
-elite proxy:no
-yes:1 min ago
-1 min ago:45.168.244.16:8080
-8.220.204.215:808:HTTP
-HTTP:US
-HK:Hong Kong
-Iran:elite proxy
-elite proxy:no
-yes:1 min ago
-1 min ago:103.66.46.18:8080
-185.145.4.8:8080:HTTP
-HTTP:CO
-JP:Japan
-Pakistan:elite proxy
-elite proxy:no
-no:1 min ago
-1 min ago:41.220.16.219:80
-82.41.42.229:1080:HTTP
-HTTP:ZW
-IN:India
-France:anonymous
-elite proxy:no
-no:1 min ago
-1 min ago:197.221.240.247:80
-41.220.16.211:80:HTTP
-HTTP:AE
-CO:Colombia
-Chile:anonymous
-anonymous:no
-yes:1 min ago
-1 min ago:197.221.237.248:80
-161.35.70.249:80:HTTP
-HTTP:ZW
-ZW:Zimbabwe
-Netherlands:anonymous
-anonymous:no
-no:2 mins ago
-7 mins ago:64.76.33.108:999
-185.226.194.0:999:HTTP
-HTTP:IN
-MX:Mexico
-Japan:transparent
-elite proxy:yes
-yes:10 mins ago
-10 mins ago:156.38.112.11:80
-79.174.12.190:80:HTTP
-HTTP:DE
-US:United States
-Indonesia:elite proxy
-anonymous:no
-no:10 mins ago
-10 mins ago:8.211.42.167:8083
-27.54.121.90:8090:HTTP
-HTTP:IN
-SG:Singapore
-Indonesia:elite proxy
-elite proxy:no
-no:10 mins ago
-10 mins ago:103.65.237.92:5678
-43.134.34.219:10809:HTTP
-HTTP:ID
-DK:Denmark
-Egypt:elite proxy
-elite proxy:no
-no:10 mins ago
-10 mins ago:175.107.30.110:8080
-196.1.93.16:80:HTTP
-HTTP:TW
-NL:Netherlands
-Germany:anonymous
-anonymous:yes
-no:10 mins ago
-10 mins ago:157.10.226.93:8080
-170.155.2.119:80:HTTP
-HTTP:ZA
-SG:Singapore
-South Africa:elite proxy
-elite proxy:no
-yes:10 mins ago
-10 mins ago:163.223.112.42:8080
-163.172.167.48:80:HTTP
-HTTP:TW
-CA:Canada
-Indonesia:elite proxy
-anonymous:no
-no:10 mins ago
-10 mins ago:202.58.77.31:8080
-157.15.62.74:8080:HTTP
-HTTP:DE
-ZW:Zimbabwe
-Zimbabwe:anonymous
-anonymous:yes
-no:10 mins ago
-10 mins ago:41.220.16.215:80
-34.105.252.3:3128:HTTP
-HTTP:SG
-IN:India
-Malaysia:anonymous
-anonymous:no
-yes:10 mins ago
-10 mins ago:188.132.249.102:8080
-154.62.127.105:999:HTTP
-HTTP:ID
 ID:Indonesia
-Russian Federation:transparent
-transparent:no
-no:14 mins ago
-14 mins ago:43.108.46.4:9050
-213.176.74.119:1080:HTTP
-HTTP:ID
-IT:Italy
-Singapore:elite proxy
-transparent:no
-no:20 mins ago
-20 mins ago:190.109.126.44:1010
-190.119.185.157:999:HTTP
-HTTP:HN
-PE:Peru
-Indonesia:anonymous
-anonymous:yes
-no:20 mins ago
-20 mins ago:195.154.233.154:8156
-43.128.144.133:18080:HTTP
-HTTP:HK
-MY:Malaysia
-United States:elite proxy
-elite proxy:no
-no:20 mins ago
-20 mins ago:47.76.144.139:9443
-138.36.188.49:8787:HTTP
-HTTP:BD
-PK:Pakistan
-Cameroon:elite proxy
-elite proxy:yes
-yes:20 mins ago
-20 mins ago:31.28.4.192:80
-45.195.90.142:8080:HTTP
-HTTP:ID
-US:United States
-Netherlands:elite proxy
-elite proxy:yes
-yes:21 mins ago
-21 mins ago:5.198.179.172:10800
-125.209.110.83:39617:HTTP
-HTTP:ID
-CZ:Czech Republic
-Indonesia:anonymous
-elite proxy:no
-no:21 mins ago
-21 mins ago:197.221.249.199:80
-197.221.235.122:80:HTTP
-HTTP:ID
-US:United States
 Indonesia:transparent
 transparent:no
-yes:25 mins ago
-26 mins ago:200.119.141.114:999
-103.191.196.212:8080:HTTP
-HTTP:GE
-ID:Indonesia
-Ecuador:transparent
-transparent:no
-no:26 mins ago
-26 mins ago:157.20.38.254:8181
-38.50.38.213:999:HTTP
-HTTP:VE
-CL:Chile
-India:transparent
-transparent:no
-no:26 mins ago
-29 mins ago:5.104.174.199:23500
-207.246.234.115:4669:HTTP
+no:19 secs ago
+19 secs ago:8.213.195.191:8081
+156.38.112.11:80:HTTP
 HTTP:US
-BR:Brazil
+DE:Germany
+Malaysia:elite proxy
+anonymous:no
+no:19 secs ago
+19 secs ago:188.165.199.207:80
+167.99.236.14:80:HTTP
+HTTP:NL
+FR:France
+United States:elite proxy
+elite proxy:no
+no:19 secs ago
+19 secs ago:143.42.66.91:80
+184.170.169.216:8888:HTTP
+HTTP:US
+US:United States
+France:elite proxy
+elite proxy:no
+no:19 secs ago
+19 secs ago:103.154.178.192:8097
+202.58.77.195:8080:HTTP
+HTTP:DK
+SG:Singapore
+Indonesia:elite proxy
+anonymous:no
+yes:19 secs ago
+19 secs ago:61.118.38.234:60808
+94.103.183.19:1080:HTTP
+HTTP:SG
+BE:Belgium
+Paraguay:elite proxy
+elite proxy:no
+yes:19 secs ago
+19 secs ago:196.1.93.16:80
+91.107.248.7:80:HTTP
+HTTP:JP
+CH:Switzerland
+Hong Kong:elite proxy
+elite proxy:no
+yes:19 secs ago
+19 secs ago:82.137.90.192:80
+103.169.255.202:6080:HTTP
+HTTP:US
+FR:France
+Argentina:elite proxy
+elite proxy:no
+no:19 secs ago
+19 secs ago:163.172.167.48:80
+46.100.35.25:8080:HTTP
+HTTP:CA
+ZW:Zimbabwe
+Zimbabwe:anonymous
+elite proxy:yes
+no:19 secs ago
+19 secs ago:176.191.124.3:80
+41.220.16.211:80:HTTP
+HTTP:ZW
+ZW:Zimbabwe
+United Arab Emirates:elite proxy
+anonymous:no
+no:19 secs ago
+19 secs ago:5.161.103.41:88
+103.237.102.191:11111:HTTP
+HTTP:ZW
+ZW:Zimbabwe
+Zimbabwe:anonymous
+elite proxy:yes
+yes:19 secs ago
+19 secs ago:45.198.11.164:9191
+104.194.146.9:80:HTTP
+HTTP:GB
+ZW:Zimbabwe
+Zimbabwe:anonymous
+anonymous:no
+no:19 secs ago
+19 secs ago:34.43.46.91:80
+219.93.101.63:80:HTTP
+HTTP:MY
+MY:Malaysia
+Venezuela:transparent
+transparent:no
+no:22 secs ago
+22 secs ago:187.102.211.244:999
+190.186.49.120:999:HTTP
+HTTP:AR
+ID:Indonesia
+Indonesia:transparent
+transparent:no
+no:22 secs ago
+22 secs ago:181.209.114.220:8080
+189.51.168.30:999:HTTP
+HTTP:ID
+ID:Indonesia
+Chile:transparent
+transparent:no
+no:22 secs ago
+22 secs ago:103.205.82.246:8080
+180.190.222.136:8082:HTTP
+HTTP:EG
+ID:Indonesia
+Philippines:transparent
+transparent:no
+no:1 min ago
+1 min ago:116.204.166.151:8080
+186.33.55.77:999:HTTP
+HTTP:TH
+ID:Indonesia
+United Kingdom:transparent
+transparent:no
+no:1 min ago
+2 mins ago:103.182.22.51:9000
+36.95.245.81:5678:SOCKS4
+SOCKS4:UA
+PK:Pakistan
+Brazil:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:103.58.16.106:4145
+81.90.25.129:1080:SOCKS4
+SOCKS4:RU
+RU:Russian Federation
+Indonesia:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:163.128.140.38:1080
+72.195.34.42:4145:SOCKS4
+SOCKS4:AR
+US:United States
+Argentina:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:89.132.170.211:4145
+159.192.97.129:5678:SOCKS4
+SOCKS4:ID
+ID:Indonesia
+Pakistan:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:68.71.249.158:4145
+103.254.57.227:48293:SOCKS4
+SOCKS4:UA
+JP:Japan
+United States:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:170.233.72.43:1080
+163.47.37.190:1080:SOCKS4
+SOCKS4:US
+VN:Vietnam
+United States:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:103.4.94.124:1080
+137.59.195.198:1080:SOCKS4
+SOCKS4:US
+US:United States
+Thailand:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:67.201.58.190:4145
+129.222.104.186:1080:SOCKS4
+SOCKS4:US
+TH:Thailand
+Poland:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:5.255.117.127:1080
+70.166.65.160:4145:SOCKS4
+SOCKS4:US
+KH:Cambodia
+United States:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:217.171.85.178:1080
+194.87.79.243:2333:SOCKS4
+SOCKS4:TR
+US:United States
+United States:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:190.228.33.45:1085
+191.102.82.83:4153:SOCKS4
+SOCKS4:ID
+NL:Netherlands
+Singapore:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:103.37.82.134:39873
+77.65.50.118:34159:SOCKS4
+SOCKS4:US
+BG:Bulgaria
+Cambodia:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:188.17.116.119:1080
+201.184.130.6:1080:SOCKS4
+SOCKS4:RU
+RU:Russian Federation
+Ukraine:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:82.149.217.54:1080
+103.18.47.79:4145:SOCKS4
+SOCKS4:ID
+TH:Thailand
+Indonesia:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:45.6.13.4:1080
+103.25.209.202:2021:SOCKS4
+SOCKS4:ID
+KR:South Korea
+India:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:189.202.204.53:1080
+200.16.211.78:4153:SOCKS4
+SOCKS4:AR
+RO:Romania
 Vietnam:elite proxy
 elite proxy:yes
-yes:30 mins ago
-31 mins ago:185.22.233.169:1080
-191.103.216.234:8085:HTTP
-HTTP:ID
-ID:Indonesia
-Indonesia:elite proxy
-anonymous:yes
-no:31 mins ago
-31 mins ago:82.137.90.192:80
-91.107.186.23:8081:HTTP
-HTTP:NL
-ES:Spain
-Pakistan:elite proxy
+yes:2 mins ago
+2 mins ago:80.78.78.106:65530
+124.105.55.176:30906:SOCKS4
+SOCKS4:US
+US:United States
+Vietnam:elite proxy
 elite proxy:yes
-no:31 mins ago
-31 mins ago:41.220.16.213:80
-138.68.60.8:3128:HTTP
-HTTP:AU
-AM:Armenia
-United States:elite proxy
-transparent:no
-no:34 mins ago
-34 mins ago:45.190.78.131:999
-201.4.69.38:8080:HTTP
-HTTP:PE
-RS:Serbia
-Indonesia:transparent
-transparent:no
-no:34 mins ago
-34 mins ago:103.173.141.4:8080
-178.104.234.144:8118:HTTP
-HTTP:MX
-FI:Finland
-Indonesia:anonymous
+yes:2 mins ago
+2 mins ago:152.70.156.142:1080
+121.169.46.116:1090:SOCKS4
+SOCKS4:ID
+BD:Bangladesh
+Sweden:elite proxy
+elite proxy:yes
+yes:2 mins ago
+2 mins ago:47.237.107.41:4145
+202.62.37.63:1080:SOCKS4
+SOCKS4:ID
+BD:Bangladesh
+Ukraine:elite proxy
