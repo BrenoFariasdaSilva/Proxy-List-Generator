@@ -26,7 +26,6 @@ A Python tool that automatically scrapes and generates up-to-date proxy lists fr
 ![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Proxy-List-Generator)
 ![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Proxy-List-Generator)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Proxy-List-Generator.svg)
-[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator)
 [![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/pulls)
