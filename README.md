@@ -30,10 +30,30 @@ A Python tool that automatically scrapes and generates up-to-date proxy lists fr
 </div>
 
 <div align="center">
-  
-![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/dbd824ba0971a5ecf52c4d83b0f8d4915709dd6e.svg "Repobeats analytics image")
+
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasdaSilva/Proxy-List-Generator/main)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Proxy-List-Generator)
+![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Proxy-List-Generator)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Proxy-List-Generator.svg)
+[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator)
+[![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/issues?q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/BrenoFariasdaSilva/Proxy-List-Generator)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/pulls?q=is%3Apr+is%3Aclosed)
+[![Monthly Commits](https://img.shields.io/github/commit-activity/m/BrenoFariasdaSilva/Proxy-List-Generator/main)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/commits)
+[![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/Proxy-List-Generator?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/Proxy-List-Generator/pulls?q=is%3Apr+is%3Amerged)
+![GitHub Primary Language](https://img.shields.io/badge/language-Python-3b82f6)
+
+![Repobeats Statistics](https://repobeats.axiom.co/api/embed/dbd824ba0971a5ecf52c4d83b0f8d4915709dd6e.svg)
 
 </div>
+
 
 ## Table of Contents
 - [Proxy-List-Generator. ](#proxy-list-generator-)
