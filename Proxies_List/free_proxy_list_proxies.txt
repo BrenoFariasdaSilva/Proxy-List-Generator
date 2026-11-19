@@ -1,263 +1,263 @@
-34.229.190.39:4091:HTTP
-HTTP:AE
-ID:Indonesia
-Indonesia:Anonymous
-Anonymous:Yes
-Yes:1 min ago
-1 min ago:37.193.95.9:10808
-45.225.18.240:8080:HTTP
+52.56.143.248:3128:HTTP
 HTTP:CH
-US:United States
-Japan:Elite
-Elite:Yes
-Yes:1 min ago
-1 min ago:85.132.108.42:3128
-41.65.103.168:8080:HTTP
-HTTP:NL
-GH:Ghana
-Senegal:Elite
-Anonymous:No
-No:1 min ago
-1 min ago:45.195.104.6:80
-3.26.199.107:42984:HTTP
-HTTP:US
-US:United States
-Spain:Elite
-Elite:No
-Yes:1 min ago
-1 min ago:152.230.215.123:80
-159.65.221.25:80:HTTP
-HTTP:ID
-RU:Russia
-France:Elite
-Elite:No
-No:1 min ago
-1 min ago:165.154.162.73:8888
-196.1.93.16:80:HTTP
-HTTP:TW
-US:United States
+CA:Canada
 United States:Elite
 Elite:Yes
-No:1 min ago
-1 min ago:207.180.254.198:8080
-196.223.129.21:80:HTTP
-HTTP:ZW
-UZ:Uzbekistan
+No:16 secs ago
+16 secs ago:184.170.169.216:8888
+8.210.17.35:1311:HTTP
+HTTP:US
+JP:Japan
+United States:Elite
+Anonymous:Yes
+No:16 secs ago
+16 secs ago:85.214.107.177:80
+216.152.152.44:80:HTTP
+HTTP:BR
+AE:United Arab Emirates
+Czech Republic:Elite
+Elite:No
+No:16 secs ago
+16 secs ago:43.240.83.70:8080
+5.161.50.82:8118:HTTP
+HTTP:US
+PY:Paraguay
 Taiwan:Elite
-Anonymous:No
-No:1 min ago
-1 min ago:41.220.16.208:80
-143.246.138.227:80:HTTP
+Elite:No
+No:16 secs ago
+16 secs ago:150.140.148.235:80
+103.237.102.191:11111:HTTP
+HTTP:NL
+CA:Canada
+Singapore:Elite
+Elite:No
+No:16 secs ago
+16 secs ago:45.194.3.204:8080
+45.225.18.240:8080:HTTP
 HTTP:DE
-ZW:Zimbabwe
-Zimbabwe:Anonymous
-Anonymous:No
-Yes:1 min ago
-1 min ago:197.221.240.176:80
-197.221.237.248:80:HTTP
-HTTP:ZW
-SG:Singapore
-Senegal:Elite
-Anonymous:No
-No:1 min ago
-1 min ago:8.219.97.248:80
-3.21.247.154:4761:HTTP
-HTTP:GB
+PH:Philippines
+Italy:Anonymous
+Anonymous:Yes
+No:18 secs ago
+18 secs ago:43.128.107.122:7890
+195.114.209.50:80:HTTP
+HTTP:US
 US:United States
+Indonesia:Anonymous
+Anonymous:No
+No:18 secs ago
+18 secs ago:114.111.151.41:80
+91.107.248.7:80:HTTP
+HTTP:KH
+FR:France
 South Africa:Elite
 Elite:No
-No:1 min ago
-1 min ago:91.126.244.112:8080
-38.236.240.202:999:HTTP
-HTTP:US
-IN:India
-Turkey:Elite
-Elite:Yes
-Yes:1 min ago
-1 min ago:40.177.104.199:30577
-3.231.160.150:443:HTTP
-HTTP:HK
-KR:South Korea
-Russia:Elite
-Anonymous:Yes
-Yes:1 min ago
-1 min ago:16.28.29.244:44311
-18.191.250.90:58119:HTTP
-HTTP:CH
-CO:Colombia
-United States:Anonymous
-Elite:Yes
-Yes:1 min ago
-1 min ago:31.57.178.211:8080
-16.52.81.236:11453:HTTP
-HTTP:PH
-PK:Pakistan
-Cambodia:Elite
-Elite:Yes
-Yes:1 min ago
-1 min ago:5.198.179.172:10800
-38.180.251.249:18080:HTTP
-HTTP:DE
-SG:Singapore
-Germany:Elite
-Anonymous:Yes
-No:2 mins ago
-2 mins ago:114.130.153.46:58080
-38.156.235.37:999:HTTP
-HTTP:IN
-IN:India
-India:Anonymous
-Elite:No
-No:2 mins ago
-2 mins ago:103.112.136.77:8080
-195.13.182.210:20612:HTTP
-HTTP:US
-FR:France
-Indonesia:Anonymous
-Anonymous:Yes
-No:2 mins ago
-2 mins ago:143.198.135.176:80
-31.220.78.244:80:HTTP
-HTTP:FR
-ID:Indonesia
-United States:Anonymous
-Transparent:No
-No:2 mins ago
-2 mins ago:38.188.99.65:999
-177.55.68.68:8080:HTTP
-HTTP:SE
-US:United States
-Singapore:Anonymous
+No:18 secs ago
+18 secs ago:45.91.248.107:80
+102.244.78.61:8090:HTTP
+HTTP:SG
+HK:Hong Kong
+United States:Elite
 Anonymous:No
-No:2 mins ago
-2 mins ago:45.195.90.142:8080
-163.172.167.48:80:HTTP
+No:18 secs ago
+28 secs ago:139.60.209.2:80
+196.1.97.198:80:HTTP
+HTTP:JP
+US:United States
+Colombia:Anonymous
+Elite:Yes
+No:28 secs ago
+28 secs ago:216.236.6.203:7892
+159.65.221.25:80:HTTP
+HTTP:SG
+ZW:Zimbabwe
+Zimbabwe:Anonymous
+Anonymous:No
+No:28 secs ago
+28 secs ago:197.221.249.198:80
+197.221.249.199:80:HTTP
 HTTP:ZW
-SI:Slovenia
-South Korea:Anonymous
+ZW:Zimbabwe
+United States:Elite
+Anonymous:No
+No:28 secs ago
+28 secs ago:197.221.240.176:80
+197.221.237.248:80:HTTP
+HTTP:ZW
+ZW:Zimbabwe
+Netherlands:Anonymous
+Elite:No
+Yes:1 min ago
+1 min ago:41.65.103.168:8080
+156.38.112.11:80:HTTP
+HTTP:JP
+MX:Mexico
+Japan:Anonymous
+Elite:No
+No:1 min ago
+1 min ago:51.75.206.209:80
+152.230.215.123:80:HTTP
+HTTP:NL
+BE:Belgium
+United States:Elite
+Anonymous:No
+No:1 min ago
+1 min ago:138.68.235.51:80
+197.221.249.197:80:HTTP
+HTTP:ZW
+ZW:Zimbabwe
+Zimbabwe:Anonymous
+Anonymous:No
+Yes:1 min ago
+1 min ago:197.221.234.149:80
+195.66.197.169:39724:HTTP
+HTTP:US
+HR:Croatia
+Pakistan:Transparent
 Anonymous:Yes
 Yes:2 mins ago
-2 mins ago:103.152.21.59:3128
-139.60.209.2:80:HTTP
-HTTP:JP
-JP:Japan
-Italy:Anonymous
-Anonymous:No
-No:2 mins ago
-2 mins ago:45.43.60.220:8080
-190.58.248.86:80:HTTP
-HTTP:DE
-ZW:Zimbabwe
-Zimbabwe:Anonymous
-Anonymous:No
-No:2 mins ago
-2 mins ago:41.220.16.210:80
-39.109.113.97:4090:HTTP
-HTTP:MY
-ID:Indonesia
-United States:Elite
-Elite:No
-No:2 mins ago
-2 mins ago:45.194.41.231:8080
-207.246.234.115:4669:HTTP
-HTTP:US
-US:United States
+3 mins ago:129.146.163.237:8888
+3.26.199.107:42984:HTTP
+HTTP:TH
+VN:Vietnam
 Indonesia:Anonymous
 Anonymous:No
-No:2 mins ago
-2 mins ago:217.162.8.134:80
-20.33.10.132:80:HTTP
-HTTP:CA
-ZW:Zimbabwe
-Zimbabwe:Anonymous
-Elite:No
-No:2 mins ago
-2 mins ago:198.199.86.11:3128
-41.220.16.215:80:HTTP
-HTTP:MY
-MY:Malaysia
-Pakistan:Elite
-Elite:No
-No:2 mins ago
-2 mins ago:160.19.18.173:3125
-200.69.102.129:8080:HTTP
-HTTP:CL
-ID:Indonesia
-Indonesia:Transparent
-Transparent:No
-No:4 mins ago
-4 mins ago:186.226.167.191:3128
-45.70.52.248:8080:HTTP
-HTTP:ID
-ID:Indonesia
-Panama:Transparent
-Transparent:No
-No:4 mins ago
-4 mins ago:188.235.21.247:8080
-171.101.72.82:8080:HTTP
-HTTP:ID
-ID:Indonesia
-Peru:Transparent
-Transparent:No
-No:4 mins ago
-4 mins ago:160.19.19.148:8080
-103.172.42.179:1111:HTTP
+No:3 mins ago
+3 mins ago:18.231.214.206:48128
+62.201.217.243:40010:HTTP
 HTTP:VN
-IN:India
-India:Anonymous
-Anonymous:No
+RU:Russia
+Indonesia:Anonymous
+Anonymous:Yes
 No:4 mins ago
-4 mins ago:41.216.190.241:8043
-107.210.56.161:80:HTTP
-HTTP:KH
-US:United States
-Japan:Elite
-Elite:No
-No:4 mins ago
-4 mins ago:185.88.177.40:80
-65.108.203.37:18080:HTTP
-HTTP:PY
-PK:Pakistan
-United States:Elite
+4 mins ago:134.199.160.93:8888
+103.143.196.83:8080:HTTP
+HTTP:VN
+ZA:South Africa
+Singapore:Elite
 Elite:No
 Yes:4 mins ago
-4 mins ago:45.172.142.38:999
-220.128.223.136:8085:HTTP
+4 mins ago:198.199.86.11:3128
+34.105.252.3:3128:HTTP
+SOCKS4:RU
+ID:Indonesia
+Venezuela:Transparent
+Elite:Yes
+Yes:4 mins ago
+5 mins ago:202.169.229.139:53281
+207.180.254.198:8080:HTTP
+HTTP:ID
+RU:Russia
+Turkey:Transparent
+Transparent:No
+No:5 mins ago
+5 mins ago:103.39.51.130:1080
+103.98.116.10:8181:HTTP
+HTTP:ID
+JP:Japan
+Japan:Elite
+Elite:No
+No:6 mins ago
+6 mins ago:45.225.207.248:999
+174.138.119.88:80:HTTP
+HTTP:US
+AR:Argentina
+Indonesia:Anonymous
+Anonymous:No
+No:6 mins ago
+6 mins ago:43.216.197.62:3425
+134.209.29.120:3128:HTTP
+HTTP:ZA
+DE:Germany
+Taiwan:Elite
+Elite:No
+No:7 mins ago
+7 mins ago:82.137.90.220:80
+175.100.103.170:1256:HTTP
+HTTP:HK
+DE:Germany
+Singapore:Elite
+Transparent:No
+No:7 mins ago
+7 mins ago:185.21.142.40:3128
+183.110.216.159:8090:HTTP
+HTTP:ID
+CO:Colombia
+Russia:Elite
+Elite:Yes
+Yes:7 mins ago
+8 mins ago:18.170.45.5:21005
+202.58.77.235:1080:HTTP
+HTTP:IN
+SG:Singapore
+United States:Elite
+Anonymous:Yes
+No:8 mins ago
+8 mins ago:170.150.117.232:8080
+69.48.201.94:80:HTTP
 HTTP:ID
 SE:Sweden
-Singapore:Elite
-Anonymous:No
-No:5 mins ago
-5 mins ago:154.201.126.245:8080
-104.251.93.119:16062:HTTP
-HTTP:US
-US:United States
-United Arab Emirates:Elite
-Elite:No
-No:5 mins ago
-5 mins ago:8.211.195.173:5555
-209.97.150.167:3128:HTTP
-HTTP:JP
-DE:Germany
-Japan:Elite
-Elite:No
-No:5 mins ago
-5 mins ago:116.101.73.52:2080
-182.253.42.232:2026:HTTP
-HTTP:NL
-ID:Indonesia
 United States:Elite
 Elite:No
-No:5 mins ago
-5 mins ago:103.116.49.115:8080
-176.191.124.3:80:HTTP
+No:8 mins ago
+8 mins ago:217.162.8.134:80
+195.158.8.123:3128:HTTP
+HTTP:IN
+SG:Singapore
+Austria:Anonymous
+Anonymous:Yes
+Yes:8 mins ago
+8 mins ago:13.209.65.136:27085
+18.191.250.90:58119:HTTP
+HTTP:ES
+US:United States
+United States:Anonymous
+Elite:No
+No:10 mins ago
+10 mins ago:103.159.195.221:8080
+158.160.247.254:3128:HTTP
+HTTP:IR
+ID:Indonesia
+Azerbaijan:Elite
+Anonymous:No
+No:10 mins ago
+10 mins ago:98.81.204.137:9459
+193.181.35.175:8118:HTTP
+HTTP:US
+US:United States
+Japan:Elite
+Elite:No
+No:11 mins ago
+11 mins ago:45.194.41.141:8080
+47.90.149.238:41:HTTP
+HTTP:TR
+ID:Indonesia
+Pakistan:Elite
+Transparent:No
+No:12 mins ago
+13 mins ago:45.194.41.155:8080
+123.58.199.232:8168:HTTP
+HTTP:ID
+RU:Russia
+Lithuania:Elite
+Elite:No
+No:14 mins ago
+14 mins ago:103.208.102.1:8080
+103.180.118.58:1080:HTTP
 HTTP:ID
 ID:Indonesia
-Japan:Elite
-Anonymous:No
-Yes:5 mins ago
-5 mins ago:103.174.122.4:3128
-104.218.199.115:16062:HTTP
-HTTP:PL
-ID:Indonesia
-Kyrgyzstan:Elite
+Iran:Elite
+Anonymous:Yes
+No:16 mins ago
+16 mins ago:116.101.73.161:2080
+98.94.14.234:8181:HTTP
+HTTP:IN
+SG:Singapore
+Turkey:Transparent
+Transparent:No
+No:18 mins ago
+18 mins ago:202.62.84.210:53281
+115.127.166.86:8080:HTTP
+HTTP:ID
+PH:Philippines
+Indonesia:Anonymous
